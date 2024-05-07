@@ -1,0 +1,96 @@
+Um eine Performance-optimierte Index-Seite für ein Nachrichtenportal mit Pure CSS zu erstellen, sollten wir auf eine schlanke und effiziente CSS-Struktur setzen. Hier ist ein Beispiel für eine minimalistische News-Index-Seite:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nachrichtenportal</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Globale Stile */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+
+        /* Navigationsleiste */
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .navbar h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Nachrichtenliste */
+        .news-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px;
+        }
+
+        .news-list li {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+
+        .news-list li:last-child {
+            border-bottom: none;
+        }
+
+        .news-list li h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .news-list li p {
+            color: #666;
+        }
+
+        .news-list li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .news-list li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <h1>Nachrichtenportal</h1>
+    </header>
+    <ul class="news-list">
+        <li>
+            <h2><a href="#">Schlagzeile 1</a></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+        <li>
+            <h2><a href="#">Schlagzeile 2</a></h2>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+        <li>
+            <h2><a href="#">Schlagzeile 3</a></h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </li>
+        <!-- Weitere Nachrichten hier einfügen -->
+    </ul>
+</body>
+</html>
+```
+
+Dieser HTML-Code erstellt eine einfache Index-Seite für ein Nachrichtenportal. Die Seite hat eine Navigationsleiste (`navbar`) und eine Liste von Nachrichten (`news-list`). Jede Nachricht besteht aus einer Überschrift (`h2`) und einem kurzen Absatz (`p`).
+
+Dieser Ansatz mit reinem CSS ist in der Regel sehr schnell, da keine JavaScript-Abhängigkeiten oder zusätzlichen Ressourcen geladen werden müssen. Indem wir auf unnötige Stile und Tags verzichten, halten wir die Seite schlank und optimiert für eine schnelle Ladezeit. Du kannst diesen Code anpassen und erweitern, um den spezifischen Anforderungen deines Nachrichtenportals gerecht zu werden.

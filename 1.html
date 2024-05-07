@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FAQ Seite</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+</head>
+<body>
+  <div class="ui container">
+    <h1 class="ui header">FAQ</h1>
+    
+    <div class="ui styled accordion">
+      <div class="title">
+        <i class="dropdown icon"></i>
+        Was ist Semantic UI?
+      </div>
+      <div class="content">
+        <p class="transition hidden">Semantic UI ist ein benutzerfreundliches Framework für die Erstellung von responsiven und modern aussehenden Webseiten.</p>
+      </div>
+      
+      <div class="title">
+        <i class="dropdown icon"></i>
+        Wie verwende ich Semantic UI?
+      </div>
+      <div class="content">
+        <p class="transition hidden">Um Semantic UI zu verwenden, fügen Sie einfach das CSS- und JavaScript-Dateien in Ihrem HTML-Dokument hinzu.</p>
+      </div>
+      
+      <div class="title">
+        <i class="dropdown icon"></i>
+        Gibt es eine Dokumentation für Semantic UI?
+      </div>
+      <div class="content">
+        <p class="transition hidden">Ja, Semantic UI bietet eine umfassende Dokumentation mit Beispielen und Anleitungen.</p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <script>
+    $('.ui.styled.accordion').accordion();
+  </script>
+</body>
+</html>

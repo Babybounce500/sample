@@ -1,0 +1,88 @@
+Hier ist ein Beispiel für eine Nutzerprofil-Seite in HTML und Material-UI:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+      }
+      .profile {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+      }
+      .profile-img {
+        text-align: center;
+      }
+      .profile-img img {
+        width: 200px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+      .profile-name {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+      .profile-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .profile-info i {
+        margin-right: 10px;
+      }
+      .profile-info span {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <div class="profile-img">
+        <img
+          src="https://www.example.com/profile-picture.jpg"
+          alt="Profile Picture"
+        />
+      </div>
+      <div class="profile-name">John Doe</div>
+      <div class="profile-info">
+        <i class="material-icons">email</i>
+        <span>johndoe@example.com</span>
+      </div>
+      <div class="profile-info">
+        <i class="material-icons">phone</i>
+        <span>(123) 456-7890</span>
+      </div>
+      <div class="profile-info">
+        <i class="material-icons">location_on</i>
+        <span>123 Main St, Anytown, USA</span>
+      </div>
+      <div class="profile-info">
+        <i class="material-icons">link</i>
+        <span>
+          <a href="https://www.example.com">https://www.example.com</a>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
+```
+
+In diesem Beispiel haben wir eine Profilseite mit einem Profilbild, dem Namen des Benutzers und weiteren Informationen wie E-Mail, Telefonnummer, Adresse und Website. Die Material-UI-Icons werden verwendet, um die Symbole anzuzeigen. Das CSS sorgt für das Layout und das Styling der Seite.
